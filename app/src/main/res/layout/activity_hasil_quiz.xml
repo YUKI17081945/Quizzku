@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HasilQuiz">
+
+    <TextView
+        android:id="@+id/Tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Score "
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/Nilai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1000"
+        android:layout_below="@+id/Tv1"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:id="@+id/Massage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="benar?,salah?"
+        android:layout_below="@id/Nilai"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/hasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selamat Kamu memiliki IQ yang Tinggi"
+        android:layout_below="@id/Massage"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"/>
+
+
+    <Button
+        android:id="@+id/ulang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coba Lagi"
+        android:layout_below="@id/hasil"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
